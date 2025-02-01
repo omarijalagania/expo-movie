@@ -6,7 +6,7 @@ export default function TabLayout() {
     <Tabs screenOptions={{ tabBarActiveTintColor: "#5F44B3" }}>
       <StatusBar style="auto" />
       <Tabs.Screen
-        name="index"
+        name="(home)"
         options={{
           headerTintColor: "white",
           headerStyle: { backgroundColor: "#5F44B3" },

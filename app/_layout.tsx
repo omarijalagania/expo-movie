@@ -40,10 +40,10 @@ export default function RootLayout() {
             options={{ title: "ფილმის დეტალები", headerBackTitle: "მთავარი" }}
           />
 
-          <Stack.Screen
+          {/* <Stack.Screen
             name="all-featured/index"
             options={{ title: "ყველა ფილმი", headerBackTitle: "მთავარი" }}
-          />
+          /> */}
 
           <Stack.Screen
             name="all-trending/index"
@@ -55,6 +55,7 @@ export default function RootLayout() {
             options={{ title: "ყველა ფილმი", headerBackTitle: "მთავარი" }}
           />
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen name="+not-found.tsx" />
         </Stack>
       </FavoritesProvider>
     </ThemeProvider>

@@ -19,9 +19,9 @@ const Home = () => {
   return (
     <SafeAreaView>
       <ScrollView
-        refreshControl={
-          <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
-        }
+        // refreshControl={
+        //   <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+        // }
         showsVerticalScrollIndicator={false}
       >
         <View className="mx-auto container p-2">
