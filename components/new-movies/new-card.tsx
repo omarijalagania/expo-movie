@@ -32,7 +32,7 @@ const NewCard = ({ movie }: { movie: MovieT }) => {
       asChild
       href={`/${movie?.id}`}
       style={{ width: width * 0.35, height: 170 }}
-      className="relative z-10"
+      className="relative mb-4 z-10"
     >
       <Pressable>
         <View className="relative m-3">
@@ -40,7 +40,7 @@ const NewCard = ({ movie }: { movie: MovieT }) => {
             source={{
               uri: `https://image.tmdb.org/t/p/w500${movie.poster_path}`,
             }}
-            style={{ width: 120, height: 170 }}
+            style={{ width: width * 0.3, height: 170 }}
             className="object-cover rounded-lg"
           />
 
