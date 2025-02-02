@@ -21,7 +21,9 @@ const Favorites = () => {
         />
       ) : (
         <View className="mt-20">
-          <Text className="text-center p-2 text-3xl">ფავორიტები ცარიელია</Text>
+          <Text className="text-center p-2 text-black dark:text-white text-3xl">
+            ფავორიტები ცარიელია
+          </Text>
           <FontAwesome
             name="history"
             color="#5F44B3"
